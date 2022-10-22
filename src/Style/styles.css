@@ -1,0 +1,85 @@
+body {
+    background-color: #141414;
+    color: #ffff;
+}
+
+.navbar {
+    margin: 10px 5px 10px 0px;
+}
+
+/* For changing color of swiper slider */
+.swiper-pagination-bullet {
+    background-color: white !important;
+}
+
+.cards {
+    position: relative;
+    text-align: center;
+    margin-bottom: 0.3rem;
+    transition: 0.5s ease;
+}
+
+.cards:hover {
+    transform: scale(0.92);
+}
+
+.cards:hover img {
+    box-shadow: 5px 5px 15px rgb(255, 255, 255, 0.55);
+}
+
+.form-control {
+    background-color: #141414;
+}
+
+.poster-img {
+    width: 85%;
+    border-radius: 0.5rem;
+}
+
+.form-control::placeholder {
+    color: #ffff;
+}
+
+/* For each section excluding heading */
+.sectionHeading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 2.1rem;
+    margin: 2rem 0rem 1.25rem 1rem;
+}
+
+.movie-title-mainpage {
+    width: 90%;
+    margin: auto;
+    color: white;
+    font-size: 1.09rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cards:hover .movie-title-mainpage {
+    color: rgb(207, 44, 44);
+}
+
+@media (max-width:768px) {
+
+    .cards {
+        margin-bottom: 0.9rem;
+        transition: none;
+    }
+
+    .cards:hover {
+        transform: none;
+    }
+
+    .cards:hover img {
+        box-shadow: none;
+    }
+
+    .movie-title-mainpage {
+        font-size: 0.7rem;
+        font-weight: 500;
+        margin-bottom: 0.2rem;
+    }
+    
+}

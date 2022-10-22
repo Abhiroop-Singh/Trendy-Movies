@@ -1,0 +1,151 @@
+.detail-bg-img {
+    opacity: 0.57;
+    height: 310px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.detail-poster-img {
+    position: relative;
+    filter: brightness(1.2);
+    float: left;
+    left: 80px;
+    top: -100px;
+    height: 400px;
+    border-radius: 0.7rem;
+}
+
+.title {
+    font-size: 3.5rem;
+    width: 86%;
+    font-weight: 700;
+}
+
+.btn-genre {
+    background-color: transparent;
+    padding: 0.4rem 1.3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    border-color: white;
+    border-width: 1.4px;
+    border-radius: 0.7rem;
+    margin: 0.8rem 0.6rem 0.9rem 0rem;
+}
+
+.btn-genre:hover {
+    background-color: #FFFF;
+    color: #141414;
+}
+
+.movie-content-info {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 23.75rem;
+}
+
+
+.cast {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 90%;
+}
+
+.cast-card {
+    width: 180px;
+}
+
+.actor-img {
+    width: 130px;
+    border-radius: 0.7rem;
+    height: 190px;
+    margin: 1rem;
+}
+
+.individual-overview {
+    width: 83%;
+    line-height: 1.6;
+}
+
+.trailer-container {
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.videos {
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+
+@media screen and (max-width:768px) {
+    .detail-page {
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .title {
+        margin-left: 1.6rem;
+        font-weight: 700;
+        font-size: 2.03rem;
+    }
+
+    .detail-poster {
+        position: relative;
+        margin-top: -5rem;
+    }
+
+    .detail-bg-img {
+        background-position: center;
+        width: 310%;
+    }
+
+    .detail-poster-img {
+        height: 335px;
+        float: none;
+        margin-bottom: 1.5rem;
+        left: 0px;
+        top: 0px;
+    }
+
+    .movie-content-info {
+        margin: 0rem;
+    }
+
+    .actor-img {
+        width: 125px;
+        height: 190px;
+        margin-left: 1rem;
+    }
+
+    .individual-overview {
+        width: 90%;
+        margin: 1rem 0.7rem 1rem 0.7rem;
+    }
+
+    .cast {
+        margin-left: 0.7rem;
+    }
+
+    .cast .cast-card {
+        flex: 50%;
+    }
+
+    .trailer-container {
+        margin: 3rem 0rem 2rem 0rem;
+        width: 100%;
+    }
+
+    .trailer-container span {
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+
+    .videos {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0rem 0.5rem 0rem 0.5rem;
+    }
+
+}

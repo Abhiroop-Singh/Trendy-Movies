@@ -1,0 +1,59 @@
+.sticky .navbar-title,
+.sticky ul li a{
+    color: #000;
+}
+
+.header {
+    margin: 0;
+    background: #14141436;
+}
+
+.sticky {
+    margin: 0;
+    transition: 0.6s;
+    padding: 5px 20px 5px 20px;
+    background: #fff;
+}
+
+.navbar-container {
+    margin: 0;
+    width: 100%;
+    transition: 0.6s;
+    position: fixed;
+    height: 11vh;
+    z-index: 2;
+}
+
+.navbar-brand {
+    margin-left: 0.5rem;
+}
+
+.navbar-item {
+    transition: 0.6s;
+}
+
+.navbar-title {
+    font-weight: 700;
+    font-size: 2rem;
+    padding-left: 0.7rem;
+    transition: 0.6s;
+}
+
+.navbar a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.nav-item {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.navbar.sticky .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='whitesmoke' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}

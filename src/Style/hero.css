@@ -1,0 +1,102 @@
+.hero-img {
+    object-fit: cover;
+    background-repeat: no-repeat;
+    opacity: 0.47;
+    height: 573px;
+}
+
+.heroPosterImg {
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    width: 280px;
+    height: 400px;
+    border-radius: 2rem;
+    margin-right: 80px;
+    margin-top: 140px;
+    filter: brightness(1.17);
+}
+
+.heroContainerDetails {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    margin: 120px 600px 0px 90px;
+    width: 60%;
+    top: 0px;
+}
+
+.movieTitle {
+    letter-spacing: 0.1rem;
+    font-size: 3.4rem;
+    font-weight: 900;
+}
+
+.movieOverview {
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    font-weight: 200;
+    font-size: 1.06rem;
+    line-height:1.7rem;
+}
+
+.btns {
+    margin-top: 2.1rem;
+}
+
+.btn-danger{
+    background-color: #eb0f0f !important;
+}
+
+.heroAllImages {
+    background-repeat: no-repeat;
+}
+
+.heroButton {
+    margin:1rem 1.5rem 0rem 0rem;
+    padding: 0.4rem 1.3rem;
+    font-weight: 600;
+}
+
+.btn-outline-light {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 5px 5px #c41c1c4d;
+}
+
+@media (max-width:768px){
+    .hero-img {
+        height: 690px;
+    }
+
+    .heroPosterImg {
+        display: none;
+        opacity: 0.5;
+    }
+
+    .heroContainerDetails {
+        margin: 112px 6px 110px 22px;
+        width: 90%;
+    }
+
+    .movieTitle {
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    .movieOverview {
+        font-weight: 300;
+        font-size: 1.09rem;
+        line-height: 1.45;
+    }
+
+    .heroButton {
+        display: flex;
+        margin:1.1rem 0rem 0rem 0rem;
+        padding: 0.3rem 0.5rem;
+        font-weight: 300;
+    }
+
+}

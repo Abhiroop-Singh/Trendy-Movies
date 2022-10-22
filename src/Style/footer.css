@@ -1,0 +1,35 @@
+.footer {
+    text-align: center;
+    margin-top: 6rem;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+}
+
+.footer-content {
+    margin-right: 40px;
+}
+
+.footer_logo {
+    font-size: 1.6rem;
+    padding-top: 5rem;
+}
+
+.icon-img {
+    height: 60px;
+    width: 60px;
+}
+
+.footer-content-menu {
+    text-align: center;
+    font-size: 1.3rem;
+    margin:2rem;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: rgb(183, 75, 75);
+}
