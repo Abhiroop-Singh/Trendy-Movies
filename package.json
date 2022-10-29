@@ -16,7 +16,8 @@
     "react-scroll": "^1.8.7",
     "reactjs-popup": "^2.0.5",
     "swiper": "^8.3.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "stack":"heroku-22"
   },
   "scripts": {
     "start": "react-scripts start",
