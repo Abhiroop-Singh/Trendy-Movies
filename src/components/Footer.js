@@ -8,31 +8,59 @@ function Footer() {
         <div className="footer" style={
             { backgroundImage: `url(${background})` }
         }>
-            <div className="footer_logo">
-                <img src={require("../Images/icon.png")} className='icon-img' />
-                <span style={{ margin: '1rem' }}>MoviesNow</span>
-            </div>
-            <div className="footer-content">
-                <div className="footer-content-menu">
-                    <Link to={'/'} style={{ margin: '6rem', textDecoration: 'none' }} className='footer-link'>Home</Link>
-                    <Link to={'/'} style={{ margin: '2rem', textDecoration: 'none' }} className='footer-link'>Live</Link>
-                    <Link to={'/'} style={{ margin: '6rem', textDecoration: 'none' }} className='footer-link'>You must watch</Link>
+            <table>
+                <tr>
+                    <tc>
+                        <td>
+                            <div className="footer_logo">
+                                <img src={require("../Images/icon.png")} className='icon-img' />
+                                <span style={{ margin: '1rem' }}>MoviesNow</span>
+                            </div>
+                        </td>
+                    </tc>
+                </tr>
+                <div className="footer-content">
+                    <div className="footer-content-menu1">
+                        <tr>
+                            <tc>
+                                <td>
+                                    <Link to={'/'} style={{ textDecoration: 'none' }} className='footer-link'>Home</Link>
+                                </td>
+                            </tc>
+                            <tc>
+                                <td>
+                                    <Link to={'/movie'} style={{ textDecoration: 'none' }} className='footer-link'>Movies</Link>
+                                </td>
+                            </tc>
+                            <tc>
+                                <td>
+                                    <Link to={'/show'} style={{ textDecoration: 'none' }} className='footer-link'>TV Shows</Link>
+                                </td>
+                            </tc>
+                        </tr>
+                    </div>
+
+                    <div className="footer-content-menu">
+                        <tr>
+                            <tc>
+                                <td>
+                                <Link to={'/'} style={{textDecoration: 'none' }} className='footer-link'>Contact Us</Link>
+                                </td>
+                            </tc>
+                            <tc>
+                                <td>
+                                <Link to={'/'} style={{textDecoration: 'none' }} className='footer-link'>About Us</Link>
+                                </td>
+                            </tc>
+                            <tc>
+                                <td>
+                                <Link to={'/'} style={{textDecoration: 'none' }} className='footer-link'>PrivacyPolicy</Link>
+                                </td>
+                            </tc>
+                        </tr>
+                    </div>
                 </div>
-                <div className="footer-content-menu">
-                    <Link to={'/'} style={{ margin: '4.3rem', textDecoration: 'none' }} className='footer-link'>Contact Us</Link>
-                    <Link to={'/'} style={{ margin: '2rem', textDecoration: 'none' }} className='footer-link'>FAQ</Link>
-                    <Link to={'/'} style={{ margin: '6rem', textDecoration: 'none' }} className='footer-link'>Recent release</Link>
-                </div>
-                <div className="footer-content-menu">
-                    <Link to={'/'} style={{ marginRight: '2.6rem', textDecoration: 'none' }} className='footer-link'>Term of services</Link>
-                    <Link to={'/'} style={{ marginLeft: '2rem', textDecoration: 'none' }} className='footer-link'>Premium</Link>
-                    <Link to={'/'} style={{ margin: '6rem', textDecoration: 'none' }} className='footer-link'>Top IMDB</Link>
-                </div>
-                <div className="footer-content-menu">
-                    <Link to={'/'} style={{ textDecoration: 'none' }} className='footer-link'>About Us</Link>
-                    <Link to={'/'} style={{ marginLeft: '8rem', textDecoration: 'none' }} className='footer-link'>Privacy Policy</Link>
-                </div>
-            </div>
+            </table>
         </div>
     )
 }

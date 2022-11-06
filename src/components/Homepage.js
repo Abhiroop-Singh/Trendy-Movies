@@ -102,9 +102,9 @@ function Homepage() {
 
   return (
     <div style={{overflow:'hidden'}}>
-      {
+      {/* {
         window.scrollTo(0,0)
-      }
+      } */}
       {/* This is Navbar section */}
       <Navbar />
       {/* This is hero slider carousel section*/}

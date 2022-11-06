@@ -1,17 +1,16 @@
 .footer {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 6rem;
     background-repeat: no-repeat;
-    padding-bottom: 70px;
-}
-
-.footer-content {
-    margin-right: 40px;
+    text-align: center;
+    padding: 85px;
 }
 
 .footer_logo {
     font-size: 1.6rem;
-    padding-top: 5rem;
+    margin-bottom:2rem;
 }
 
 .icon-img {
@@ -19,17 +18,31 @@
     width: 60px;
 }
 
-.footer-content-menu {
-    text-align: center;
+.footer-content-menu1{
     font-size: 1.3rem;
-    margin:2rem;
+    padding: 20px;
+}
+
+.footer-content-menu {
+    font-size: 1.3rem;
+    padding: 20px;
 }
 
 .footer-link {
     color: white;
     text-decoration: none;
+    padding: 40px;
 }
 
 .footer-link:hover{
     color: rgb(183, 75, 75);
+}
+
+@media only screen 
+and (min-width : 1224px) {
+    .footer-content-menu1{
+        font-size: 1.3rem;
+        padding: 20px;
+        margin-left: 3rem;
+    }
 }
